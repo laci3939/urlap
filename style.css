@@ -1,4 +1,30 @@
 .fist-column-container{
-    width: 300px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.fist-column-container label {
+
+     font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.fist-column-container input {
+    padding: 8px;
+    border: 1px solid#333edf;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+}
+.fist-column-container div {
+    margin-bottom: 15px;
+}
+
+.fist-column-container h2 {
+    text-align: center;
+}
+
