@@ -2,7 +2,8 @@
     margin-left: 20px;
     padding: 20px;
     border-radius: 20px;
-    width: 250px;
+    width: 400px;
+    height: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.621);
 }
 
@@ -31,6 +32,54 @@
 
 
 .second-form-container{
-    width: 250px;
-    box-shadow: 0 50px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.621);
+    background-color: rgb(0, 225, 255);
+}
+
+.second-form-container h2,
+.second-form-container h3 {
+    text-align: center;
+    padding: 8px;
+}
+
+.second-form-container .csop{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.second-form-container .box{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.third-form-container{
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.621);
+}
+
+button {
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: blue;
 }
